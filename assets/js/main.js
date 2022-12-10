@@ -69,7 +69,6 @@ window.addEventListener("touchstart", startanimation);
 
 // function StartGame()
 function startanimation(start) {
-    console.log(start.TouchList);
     // si code de la touche pressé == Enter
     //  ajouter TouchList pour start sur mobile
     if (start.code == "Enter") {
