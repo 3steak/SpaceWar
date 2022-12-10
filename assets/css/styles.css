@@ -7,7 +7,7 @@
 
 
 body {
-    background-image: url(./assets/img/bodyBackground4.gif);
+    background-image: url(../img/bodyBackground4.gif);
     background-size: cover;
     overflow: hidden;
 }
