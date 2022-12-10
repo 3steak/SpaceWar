@@ -174,7 +174,7 @@ setInterval(function () {
             // Si collision
             chifumi.style.display = "flex";
             game.style.display = "none";
-            dino.style.backgroundImage = "url(.assets/img/vaisseau1.gif)";
+            dino.style.backgroundImage = "url(assets/img/vaisseau1.gif)";
         }, 1000);
 
         cactus.style.animation = "none";
