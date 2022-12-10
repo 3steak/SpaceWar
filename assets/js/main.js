@@ -170,12 +170,12 @@ setInterval(function () {
     // detect collision 
     //  si cactuleft est à gauche ( entre 0 et 50px) et dinoTop plus bas que 140px ===> Collision
     if (cactusLeft < 30 && cactusLeft > 0 && dinoTop >= 140) {
-        dino.style.backgroundImage = "url(/assets/img/explosion2.gif)";
+        dino.style.backgroundImage = "url(./assets/img/explosion2.gif)";
         setTimeout(function () {
             // Si collision
             chifumi.style.display = "flex";
             game.style.display = "none";
-            dino.style.backgroundImage = "url(/assets/img/vaisseau1.gif)";
+            dino.style.backgroundImage = "url(./assets/img/vaisseau1.gif)";
         }, 1000);
 
         cactus.style.animation = "none";
